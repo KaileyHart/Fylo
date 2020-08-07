@@ -2,7 +2,7 @@
   
     padding-top: 50px;
     text-align: center;
-    width: 100%;
+    max-width: 100%;
     margin: 0 auto;
     margin-bottom: -10px;
  
@@ -67,7 +67,7 @@
           background-color: #fff;
           box-shadow: 3px 9px 10px rgba($color: #000000, $alpha: 0.1);
           border-radius: 5px;
-          width: 375px;
+          max-width: 375px;
           padding: 20px 20px;
           p {
               font-size: 16px;
@@ -113,3 +113,60 @@
   }
 }
 
+
+@media (max-width: 800px) {
+  .section-two {
+    text-align: center;
+    .section-two-left {
+      
+    }
+    .section-two-right {
+      max-width: 100%;
+      margin: 0 auto;
+
+      img {
+        width: 350px;
+      }
+    }
+  }
+}
+@media (max-width: 1200px) {
+  .section-two-curve {
+    text-align: center;
+    margin: 0 auto;
+  }
+  .section-two-background {
+    margin-top: -20px;
+  .section-two {
+    
+    text-align: center;
+    display: flex;
+    flex-direction: column-reverse;
+    .section-two-left {
+      margin: 0 auto;
+      max-width: 100%;;
+      padding-right: 0px;
+      .link {
+        margin-bottom: 20px;
+      }
+      .card {
+        margin-top: 40px;
+        text-align: center;
+        margin: 0 auto;
+        min-width: 300px;
+
+      }
+    }
+    .section-two-right {
+      padding-right: 0px;
+      padding-left: 0px;
+      max-width: 100%;
+      margin: 0 auto;
+
+      img {
+        max-width: 450px;
+      }
+    }
+  }
+}
+}

@@ -2,6 +2,8 @@
   max-width: 100%;
   background-color: hsl(238, 22%, 44%);
   .section-three {
+    padding-left: 20px;
+    padding-right: 20px;
     padding-top: 75px;
     padding-bottom: 75px;
     max-width: 1300px;
@@ -56,6 +58,32 @@
         background-color: hsl(170, 45%, 43%);
         cursor: pointer;
     }
+    }
+  }
+}
+
+@media (max-width: 1200px) {
+  .section-three-background {
+    .section-three {
+      padding-left: 20px;
+      padding-right: 20px;
+      display: flex;
+      flex-direction: column;
+      .section-three-left {
+        max-width: 100%;
+        text-align: center;
+
+      }
+      .section-three-right {
+        max-width: 100%;
+        text-align: center;
+        input {
+        min-width: 300px;
+        }
+        button {
+          min-width: 325px;
+        }
+      }
     }
   }
 }
