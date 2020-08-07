@@ -26,13 +26,15 @@ nav {
       cursor: pointer; }
 
 @media (max-width: 555px) {
-  nav .nav-left .logo {
-    width: 90px; }
-  nav .nav-right {
-    padding-right: 5px; }
-    nav .nav-right ul {
-      margin-top: 20px;
-      font-size: 12px; } }
+  nav {
+    justify-content: space-around; }
+    nav .nav-left .logo {
+      width: 90px; }
+    nav .nav-right {
+      padding-right: 10px; }
+      nav .nav-right ul {
+        margin-top: 20px;
+        font-size: 12px; } }
 
 .section-one {
   padding-top: 50px;

@@ -27,6 +27,7 @@ nav {
 
 @media (max-width: 555px ) {
   nav {
+    justify-content: space-around;
     .nav-left {
       .logo{
         width: 90px;
@@ -36,7 +37,7 @@ nav {
      
     }
     .nav-right {
-      padding-right: 5px;
+      padding-right: 10px;
       ul {
         margin-top: 20px;
         font-size: 12px;
