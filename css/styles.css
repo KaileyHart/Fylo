@@ -27,7 +27,7 @@ nav {
 
 @media (max-width: 555px) {
   nav .nav-left .logo {
-    width: 100px; }
+    width: 90px; }
   nav .nav-right {
     padding-right: 20px; }
     nav .nav-right ul {
@@ -241,7 +241,7 @@ nav {
           margin-top: 40px;
           text-align: center;
           margin: 0 auto;
-          min-width: 250px; }
+          max-width: 250px; }
       .section-two-background .section-two .section-two-right {
         padding-right: 0px;
         padding-left: 0px;
