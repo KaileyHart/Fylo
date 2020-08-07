@@ -21,7 +21,7 @@ nav {
     justify-content: space-between; }
     nav .nav-right ul {
       font-family: 'Raleway', sans-serif;
-      font-size: 18px; }
+      font-size: 16px; }
     nav .nav-right ul:hover {
       cursor: pointer; }
 
@@ -241,7 +241,7 @@ nav {
           margin-top: 40px;
           text-align: center;
           margin: 0 auto;
-          min-width: 300px; }
+          min-width: 250px; }
       .section-two-background .section-two .section-two-right {
         padding-right: 0px;
         padding-left: 0px;
