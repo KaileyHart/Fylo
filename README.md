@@ -1,8 +1,10 @@
-# Frontend Mentor - Fylo landing page with two column layout
+# Frontend Mentor Challenge - Fylo Landing Page
+This was a [Frontend Mentor Challenge](https://www.frontendmentor.io/) to code a website design from scratch.
 
-![Design preview for the Fylo landing page with two column layout challenge](./design/desktop-preview.jpg)
+![image](https://github.com/KaileyHart/Fylo/assets/54502452/bfa66e56-2b78-40f1-b29c-9481ffa46ce0)
 
-## This was a Frontend Mentor Challenge to code a design from scratch.
+## Description
 Fylo is a 1 page landing page built with HTML and CSS.
 
-Website Link: https://kaileyhart.github.io/Fylo/
+## Deployment
+Deployed with GitHub Pages at: [https://kaileyhart.github.io/Fylo/](https://kaileyhart.github.io/Fylo/)
